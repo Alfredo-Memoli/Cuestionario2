@@ -19,32 +19,30 @@ public class Cuestionario2 {
     public static JTextField[] jtf=new JTextField[2];
     public static  int ale;
     //static String res;
-    static String res[]={"HIDROGENO","1989","MARCONI","EDISON","1945","ANDROMEDA"};
+    static String res[]={"HIDROGENO","1989","MARCONI","EDISON","1945","ANDROMEDA","3","16","12","MADRID","JÚPITER"};
     public static void main(String[] args) {
          interfaz2 nf= new  interfaz2();
         nf.setVisible(true);
-        
+
         allBtn[0]= nf.jButton1;
         allBtn[1]= nf.jButton2;
-        
+
         jtf[0]=nf.jTextField1;
         jtf[1]=nf.jTextField2;
-        
+
            }
-    
+
     public static void BtnRm(String val){
-        
         Random rn=new Random();
-        
-        
+
+
         if(val.equals("Inicio")){
             allBtn[1].setBackground(Color.white);
             jtf[1].setBackground(Color.white);
             jtf[1].setText("");
-            ale= rn.nextInt(0,6);
-         
-        
-        
+            ale= rn.nextInt(0,11);
+
+
         switch (ale) {
             case 0:{jtf[0].setText("¿Cual es al elemento mas abundante del universo?");
                 }
@@ -64,6 +62,22 @@ public class Cuestionario2 {
             case 5:{jtf[0].setText("¿Nombre de la galaxia vecina a la via lactea?");
                 }
                 break;
+            case 6:{jtf[0].setText("¿Cuántos lados tiene un triángulo?");
+                }
+                break;
+            case 7:{jtf[0].setText("¿Cuál es el resultado de sumar 7 + 9?");
+                }
+                break;
+            case 8:{jtf[0].setText("¿Cuántos meses tiene un año?");
+                }
+                break;
+
+            case 9:{jtf[0].setText("¿Cuál es la capital de España?");
+               }
+                break;
+            case 10:{jtf[0].setText("¿Cuál es el planeta más grande de nuestro sistema solar?");
+               }
+               break;
             default:
                 throw new AssertionError();
         }
