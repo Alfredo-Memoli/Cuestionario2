@@ -19,7 +19,7 @@ public class Cuestionario2 {
     public static JTextField[] jtf=new JTextField[2];
     public static  int ale;
     //static String res;
-    static String res[]={"HIDRÓGENO","1989","MARCONI","EDISON","1945","ANDROMEDA","3","16","12","MADRID","JÚPITER","1789","PLATA","PACIFICO","1942","OCEANIA"};
+    static String res[]={"HIDRÓGENO","1989","MARCONI","EDISON","1945","ANDROMEDA","3","16","12","MADRID","JÚPITER","1789","PLATA","PACIFICO","1942","OCEANIA","METAL","LA HABANA","GABRIEL GARCIA MARQUEZ","1978","5"};
     public static void main(String[] args) {
          interfaz2 nf= new  interfaz2();
         nf.setVisible(true);
@@ -40,7 +40,7 @@ public class Cuestionario2 {
             allBtn[1].setBackground(Color.white);
             jtf[1].setBackground(Color.white);
             jtf[1].setText("");
-            ale= rn.nextInt(0,16);
+            ale= rn.nextInt(0,21);
 
 
         switch (ale) {
@@ -93,19 +93,19 @@ public class Cuestionario2 {
                case 15:{jtf[0].setText("¿En qué continente se encuentra la Gran Barrera de Coral?");
                }
                break;
-               case 16:{jtf[0].setText("¿En qué continente se encuentra la Gran Barrera de Coral?");
+               case 16:{jtf[0].setText("¿Qué tipo de material es el mercurio?");
                }
                break;
-               case 17:{jtf[0].setText("¿En qué continente se encuentra la Gran Barrera de Coral?");
+               case 17:{jtf[0].setText("¿Cúal es la capital de Cuba?");
                }
                break;
-               case 18:{jtf[0].setText("¿En qué continente se encuentra la Gran Barrera de Coral?");
+               case 18:{jtf[0].setText("¿Quién escribió Cien Años de Soledad?");
                }
                break;
-               case 19:{jtf[0].setText("¿En qué continente se encuentra la Gran Barrera de Coral?");
+               case 19:{jtf[0].setText("¿En qué año se aprobó la Constitución española?");
                }
                break;
-               case 20:{jtf[0].setText("¿En qué continente se encuentra la Gran Barrera de Coral?");
+               case 20:{jtf[0].setText("¿Cuántos lados tiene un pentágono?");
                }
                break;
             default:
