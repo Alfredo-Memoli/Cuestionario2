@@ -19,7 +19,7 @@ public class Cuestionario2 {
     public static JTextField[] jtf=new JTextField[2];
     public static  int ale;
     //static String res;
-    static String res[]={"HIDROGENO","1989","MARCONI","EDISON","1945","ANDROMEDA","3","16","12","MADRID","JÚPITER","1789","PLATA","PACIFICO","1942","OCEANIA"};
+    static String res[]={"HIDRÓGENO","1989","MARCONI","EDISON","1945","ANDROMEDA","3","16","12","MADRID","JÚPITER","1789","PLATA","PACIFICO","1942","OCEANIA"};
     public static void main(String[] args) {
          interfaz2 nf= new  interfaz2();
         nf.setVisible(true);
