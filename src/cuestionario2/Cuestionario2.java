@@ -19,7 +19,7 @@ public class Cuestionario2 {
     public static JTextField[] jtf=new JTextField[2];
     public static  int ale;
     //static String res;
-    static String res[]={"HIDROGENO","1989","MARCONI","EDISON","1945","ANDROMEDA","3","16","12","MADRID","JÚPITER"};
+    static String res[]={"HIDROGENO","1989","MARCONI","EDISON","1945","ANDROMEDA","3","16","12","MADRID","JÚPITER","1789","PLATA","PACIFICO","1942","OCEANIA"};
     public static void main(String[] args) {
          interfaz2 nf= new  interfaz2();
         nf.setVisible(true);
@@ -40,7 +40,7 @@ public class Cuestionario2 {
             allBtn[1].setBackground(Color.white);
             jtf[1].setBackground(Color.white);
             jtf[1].setText("");
-            ale= rn.nextInt(0,11);
+            ale= rn.nextInt(0,16);
 
 
         switch (ale) {
@@ -76,6 +76,36 @@ public class Cuestionario2 {
                }
                 break;
             case 10:{jtf[0].setText("¿Cuál es el planeta más grande de nuestro sistema solar?");
+               }
+               break;
+            case 11:{jtf[0].setText("¿En qué año comenzó la revolución francesa?");
+               }
+               break;
+            case 12:{jtf[0].setText("¿Como se llama el elemento químico Ag?");
+               }
+               break;
+               case 13:{jtf[0].setText("¿Cuál es el océano más grande?");
+               }
+               break;
+               case 14:{jtf[0].setText("¿En qué año se descubrió América?");
+               }
+               break;
+               case 15:{jtf[0].setText("¿En qué continente se encuentra la Gran Barrera de Coral?");
+               }
+               break;
+               case 16:{jtf[0].setText("¿En qué continente se encuentra la Gran Barrera de Coral?");
+               }
+               break;
+               case 17:{jtf[0].setText("¿En qué continente se encuentra la Gran Barrera de Coral?");
+               }
+               break;
+               case 18:{jtf[0].setText("¿En qué continente se encuentra la Gran Barrera de Coral?");
+               }
+               break;
+               case 19:{jtf[0].setText("¿En qué continente se encuentra la Gran Barrera de Coral?");
+               }
+               break;
+               case 20:{jtf[0].setText("¿En qué continente se encuentra la Gran Barrera de Coral?");
                }
                break;
             default:
